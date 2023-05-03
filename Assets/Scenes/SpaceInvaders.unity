@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 157851548}
   - component: {fileID: 157851547}
   - component: {fileID: 157851546}
+  - component: {fileID: 157851549}
   m_Layer: 0
   m_Name: Bunker
   m_TagString: Untagged
@@ -234,6 +235,105 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &157851549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157851545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83928906390d4e51a138d48cd3bb72d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &214908982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 214908984}
+  - component: {fileID: 214908983}
+  m_Layer: 0
+  m_Name: Invaders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &214908983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214908982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee23642d98a3c4dec80b83603ce805ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 4783928381025105883, guid: be25dcd53bee34d0a919a8412f85fc4c, type: 3}
+  - {fileID: 4783928381025105883, guid: be25dcd53bee34d0a919a8412f85fc4c, type: 3}
+  - {fileID: 8946220565562783750, guid: 714e0565f975e43d68c45c502d0dd8a0, type: 3}
+  - {fileID: 8946220565562783750, guid: 714e0565f975e43d68c45c502d0dd8a0, type: 3}
+  - {fileID: 7292855833959630953, guid: 4b8eb45bf517a4ea7bba5bdc8b4033d3, type: 3}
+  rows: 5
+  columns: 11
+  speed:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.25
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.8472924
+      value: 2.5270212
+      inSlope: 7.896938
+      outSlope: 7.896938
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.10504988
+      outWeight: 0.122773975
+    - serializedVersion: 3
+      time: 1
+      value: 4
+      inSlope: 12.059333
+      outSlope: 12.059333
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.14706554
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  missileAttackRate: 1
+  missilePrefab: {fileID: 3020332036101071077, guid: e2da874645f454f64951bd3d20f7b339, type: 3}
+--- !u!4 &214908984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214908982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &432364745
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +403,7 @@ GameObject:
   - component: {fileID: 487485402}
   - component: {fileID: 487485401}
   - component: {fileID: 487485400}
+  - component: {fileID: 487485403}
   m_Layer: 0
   m_Name: Bunker
   m_TagString: Untagged
@@ -403,6 +504,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &487485403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487485399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83928906390d4e51a138d48cd3bb72d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,6 +611,7 @@ GameObject:
   - component: {fileID: 773742028}
   - component: {fileID: 773742027}
   - component: {fileID: 773742026}
+  - component: {fileID: 773742029}
   m_Layer: 0
   m_Name: Bunker
   m_TagString: Untagged
@@ -598,6 +712,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &773742029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773742025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83928906390d4e51a138d48cd3bb72d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1689530868
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,6 +793,7 @@ GameObject:
   - component: {fileID: 1801517763}
   - component: {fileID: 1801517762}
   - component: {fileID: 1801517761}
+  - component: {fileID: 1801517764}
   m_Layer: 0
   m_Name: Bunker
   m_TagString: Untagged
@@ -767,6 +894,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1801517764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801517760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83928906390d4e51a138d48cd3bb72d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1932352271
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,7 +917,8 @@ GameObject:
   - component: {fileID: 1932352274}
   - component: {fileID: 1932352273}
   - component: {fileID: 1932352272}
-  m_Layer: 0
+  - component: {fileID: 1932352275}
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -878,6 +1018,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1932352275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932352271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 350259935accc4fd2966c1ae9784bf25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  laserPrefab: {fileID: -1048224838887050664, guid: 5e11fafb5fbd64fcf8db900126c0acdd, type: 3}
 --- !u!1 &2138927598
 GameObject:
   m_ObjectHideFlags: 0
